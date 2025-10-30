@@ -2,6 +2,7 @@
 
 <!--
 **ashltruong21/ashltruong21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is my current portfolio website! 
 
 Here are some ideas to get you started:
 This is my personal page/portofolio 
