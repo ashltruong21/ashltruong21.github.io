@@ -18,8 +18,6 @@ html {
     font-family: 'Times New Roman', Times, serif, sans-serif;
   }
   
-  /* You can add your own styles below, for example:
-  */
     body {
       line-height: 1.6;
       font-family: Arial, sans-serif;
@@ -31,8 +29,7 @@ html {
       text-decoration: none;
     }
   
-    h1,
-    h2 {
+    h1,h2 {
       margin-bottom: 0.5rem;
     }
   
@@ -42,8 +39,8 @@ html {
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background: black;
-      color: white;
+      background: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
     }
   
     .logo {
@@ -51,13 +48,16 @@ html {
       font-size: 1.3rem;
     }
   
-    .nav-menu li a {
-      color = white;
+    .nav-menu a {
+      color: rgb(0, 0, 0);
+      padding: 1rem;
+      text-decoration: underline;
     }
   
     .menu-btn {
       display: none;
       cursor: pointer;
+      border: #3498db;
     }
     
     /* === Hero === */
@@ -84,7 +84,7 @@ html {
   .projects,
   .skills {
     max-width: 800px;
-    margin: auto:
+    margin: auto;
     text-align: center;
   }
 /* Projects */
@@ -96,7 +96,7 @@ html {
   }
 
   .project-card {
-    border: 3px solid #000000cc
+    border: 3px solid #000000cc;
     padding: 1rem;
     border-radius: 10px;
   }
@@ -125,6 +125,14 @@ html {
   padding: 0.5rem 1rem;
   border: 1px solid rgb(175, 175, 201) ;
   border-radius: 5px;
+  background: white;
+}
+
+.skill-list li hover {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(175, 175, 201) ;
+  border-radius: 5px;
+  background: white;
 }
 
 .contact-form {
